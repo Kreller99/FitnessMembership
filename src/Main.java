@@ -29,9 +29,11 @@ public class Main {
         System.out.println("Which type of persons would you like to view?");
         System.out.println("");
         System.out.println("1. Members\n2. Employee\n3. View All People");
+        System.out.println("");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int cat = sc.nextInt();
+        System.out.println("");
         switch (cat) {
             case 1:
                 Main.memberMenu(m);

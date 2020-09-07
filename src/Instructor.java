@@ -2,8 +2,10 @@ import java.util.List;
 
 public class Instructor extends Employee{
 
+
     public Instructor() {
     }
+
 
     public Instructor(String name, String cpr) {
         super(name, cpr);
@@ -14,7 +16,8 @@ public class Instructor extends Employee{
     }
 
     public Instructor(String name, String cpr, int hours/*, int salary*/) {
-        super(name, cpr, hours/*, salary*/);
+        super(name, cpr, hours);
+        super.salary = 456;
     }
 
     public static void printOut(List e){
@@ -24,10 +27,8 @@ public class Instructor extends Employee{
 
     }
 
-
-    @Override
     public int getSalary() {
-        return super.getSalary() * super.getHours();
+        return salary * super.getHours();
     }
 
     @Override
