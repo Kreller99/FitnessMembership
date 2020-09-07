@@ -1,0 +1,15 @@
+Kurt Henriksen
+131289-1359
+true
+
+Marianne Petersen
+040294-3282
+false
+
+Christian Haugaard
+120799-9323
+false
+
+Pelle Park
+241296-7791
+true
